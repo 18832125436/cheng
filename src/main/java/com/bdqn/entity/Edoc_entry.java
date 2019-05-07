@@ -12,6 +12,7 @@ public class Edoc_entry implements Serializable {
     private Date createdate;//创建时间
 
     public Integer getId() {
+        System.out.println(0);
         return id;
     }
 
